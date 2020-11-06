@@ -10,6 +10,7 @@ import * as React from "react";
 export type ImgProps = React.ReactComponentElement<'img'>;
 
 export interface DotsProps {
+    className?: string;
     number?: number;
     thumbnails?: ImgProps[];
     value?: number;
